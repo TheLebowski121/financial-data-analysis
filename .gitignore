@@ -18,3 +18,12 @@ __pycache__/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Generated financial workbooks and Excel lock files
+output/
+~$*
+
+# Local third-party Excel templates (redistribution not established)
+templates/*.xlsx
+templates/*.xlsm
+templates/*.xlsb
